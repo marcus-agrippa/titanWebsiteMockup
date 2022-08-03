@@ -16,9 +16,9 @@ document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', 
 // Pricing check slider
 
 function check() {
-  var checkBox = document.getElementById("checbox");
-  var text1 = document.getElementsByClassName("text1");
-  var text2 = document.getElementsByClassName("text2");
+  const checkBox = document.getElementById("checbox");
+  const text1 = document.getElementsByClassName("text1");
+  const text2 = document.getElementsByClassName("text2");
 
   for (var i = 0; i < text1.length; i++) {
     if (checkBox.checked == true) {
